@@ -1,1 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>Agrinho 2026 - Agro: Tecnologia que Alimenta o Futuro</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<header class="hero">
+    <h1>🌱 Agro: Tecnologia que Alimenta o Futuro</h1>
+    <p>Conheça como a tecnologia transforma o campo e ajuda a alimentar o mundo.</p>
+</header>
+
+<nav>
+    <a href="#tecnologia">Tecnologia</a>
+    <a href="#grafico">Gráfico</a>
+    <a href="#quiz">Quiz</a>
+    <a href="#jogo">Jogo</a>
+</nav>
+
+<section id="tecnologia">
+    <h2>🚜 Tecnologia no Campo</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>🚁 Drones</h3>
+            <p>Monitoram lavouras e identificam problemas rapidamente.</p>
+        </div>
+
+        <div class="card">
+            <h3>📡 Satélites</h3>
+            <p>Acompanham o desenvolvimento das plantações.</p>
+        </div>
+
+        <div class="card">
+            <h3>🤖 Inteligência Artificial</h3>
+            <p>Ajuda agricultores a tomar melhores decisões.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="grafico">
+    <h2>📊 Produção Agrícola</h2>
+
+    <canvas id="graficoAgro"></canvas>
+</section>
+
+<section id="quiz">
+
+    <h2>🏆 Quiz do Agro</h2>
+
+    <p>Qual tecnologia voa sobre as plantações?</p>
+
+    <button onclick="resposta('errado')">Trator</button>
+    <button onclick="resposta('certo')">Drone</button>
+    <button onclick="resposta('errado')">Bicicleta</button>
+
+    <h3 id="resultado"></h3>
+
+</section>
+
+<section id="jogo">
+
+    <h2>🎮 Minijogo da Fazenda</h2>
+
+    <p>Pontos: <span id="pontos">0</span></p>
+
+    <button onclick="plantar()">🌱 Plantar</button>
+    <button onclick="regar()">💧 Regar</button>
+    <button onclick="colher()">🌾 Colher</button>
+
+    <p id="status"></p>
+
+</section>
+
+<div id="mascote">
+👨‍🌾
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
