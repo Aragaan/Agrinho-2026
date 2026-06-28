@@ -178,10 +178,10 @@ font-size:1.4rem;
 }
 
 nav ul{
-
 display:flex;
-
+justify-content:center;
 gap:32px;
+width:100%;
 
 }
 
