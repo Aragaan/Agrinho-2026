@@ -159,7 +159,7 @@ box-shadow:var(--shadow-md);
 ================================ */
 .nav-container{
     display:flex;
-    justify-content:space-between;
+    justify-content:center;
     align-items:center;
     padding:22px 40px;
 }
